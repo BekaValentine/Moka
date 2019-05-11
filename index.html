@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/AppKit.css" />
+		<style type="text/css">
+			body {
+				//background-color: #333;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="myDiv" style="height: 100px; background-color: yellow;">
+			This is not a test!
+		</div>
+		<div id="myDiv2" style="height: 100px; background-color: yellow;">
+			
+		</div>
+	</body>
+	
+	<!-- This is where the bulk of the stuff for a MokaApplication gets done -->
+	<script type="text/javascript" src="./js/MokaLibrary.library/MokaJSModifications.js"></script>
+	<script type="text/javascript" src="./js/MokaLibrary.library/Moka.js"></script>
+	<script type="text/javascript">
+		
+		
+		var MokaApp = MokaApplication.make().init();
+				
+		var myPanel1 = MokaPanel.make().initWithFrame(new MokaRect(200,200,200,200));
+		
+		var s1 = MokaSlider.makeAndInit();
+		s1.setFrameSize(new MokaSize(100,100));
+		s1.setFrameOrigin(new MokaPoint(10,10));
+		s1.setIsEnabled(NO);
+		myPanel1.contentView().addSubview(s1);
+		
+		var s2 = MokaSlider.makeAndInit();
+		s2.setFrameSize(new MokaSize(100,100));
+		s2.setFrameOrigin(new MokaPoint(40,10));
+		myPanel1.contentView().addSubview(s2);
+		
+		var s3 = MokaSlider.makeAndInit();
+		s3.setFrameOrigin(new MokaPoint(70,10));
+		s3.setSliderType(MokaHorizontalSlider);
+		s3.setFrameSize(new MokaSize(100,100));
+		myPanel1.contentView().addSubview(s3);
+		
+		var s4 = MokaSlider.makeAndInit();
+		s4.setFrameOrigin(new MokaPoint(70,40));
+		s4.setSliderType(MokaHorizontalSlider);
+		s4.setFrameSize(new MokaSize(100,100));
+		s4.setNumberOfTickMarks(10);
+		myPanel1.contentView().addSubview(s4);
+		
+		var s5 = MokaSlider.makeAndInit();
+		s5.setFrameOrigin(new MokaPoint(70,70));
+		s5.setSliderType(MokaHorizontalSlider);
+		s5.setFrameSize(new MokaSize(100,100));
+		s5.setNumberOfTickMarks(5);
+		s5.setAllowsTickMarkValuesOnly(YES);
+		s5.setTickMarkPosition(MokaTickMarksBelow);
+		myPanel1.contentView().addSubview(s5);
+		
+		var s6 = MokaSlider.makeAndInit();
+		s6.setFrameOrigin(new MokaPoint(10,120));
+		s6.setSliderType(MokaCircularSlider);
+		s6.setFrameSize(new MokaSize(100,100));
+		s6.setNumberOfTickMarks(5);
+		s6.setAllowsTickMarkValuesOnly(YES);
+		myPanel1.contentView().addSubview(s6);
+		
+	</script>
+</html>

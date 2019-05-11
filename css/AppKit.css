@@ -1,0 +1,1705 @@
+.MokaAccordionView > .titlebar {
+	background-image: url(../skin/MokaAccordionView-titlebar.png);
+}
+.MokaAccordionView > .disclosuretriangle.closed {
+	background-image: url(../skin/MokaAccordionView-disclosuretriangle-closed.png);
+}
+.MokaAccordionView > .disclosuretriangle.open {
+	background-image: url(../skin/MokaAccordionView-disclosuretriangle-open.png);
+}
+
+.MokaButton > #drawingCanvas > #skin > #topleft, .MokaButton > #drawingCanvas > #skin > #top, .MokaButton > #drawingCanvas > #skin > #topright,
+.MokaButton > #drawingCanvas > #skin > #bottomleft, .MokaButton > #drawingCanvas > #skin > #bottom, .MokaButton > #drawingCanvas > #skin > #bottomright { display: none; }
+
+.MokaButton.switch.regular.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-disabled.png);
+}
+.MokaButton.switch.regular.disabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-disabled-selected.png);
+}
+.MokaButton.switch.regular.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-enabled.png);
+}
+.MokaButton.switch.regular.enabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-enabled-selected.png);
+}
+.MokaButton.switch.regular.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-enabled-down.png);
+}
+.MokaButton.switch.regular.enabled.selected.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-regular-enabled-selected-down.png);
+}
+.MokaButton.switch.small.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-disabled.png);
+}
+.MokaButton.switch.small.disabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-disabled-selected.png);
+}
+.MokaButton.switch.small.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-enabled.png);
+}
+.MokaButton.switch.small.enabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-enabled-selected.png);
+}
+.MokaButton.switch.small.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-enabled-down.png);
+}
+.MokaButton.switch.small.enabled.selected.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-switch-small-enabled-selected.png);
+}
+.MokaButton.switch > #drawingCanvas > #skin > #center, .MokaButton.switch > #drawingCanvas > #skin > #right { display: none; }
+.MokaButton.radio.regular.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-regular-disabled.png);
+}
+.MokaButton.radio.regular.disabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-regular-disabled-selected.png);
+}
+.MokaButton.radio.regular.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-regular-enabled.png);
+}
+.MokaButton.radio.regular.enabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-regular-enabled-selected.png);
+}
+.MokaButton.radio.small.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-small-disabled.png);
+}
+.MokaButton.radio.small.disabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-small-disabled-selected.png);
+}
+.MokaButton.radio.small.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-small-enabled.png);
+}
+.MokaButton.radio.small.enabled.selected > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-radio-small-enabled-selected.png);
+}
+.MokaButton.radio > #drawingCanvas > #skin > #center, .MokaButton.radio > #drawingCanvas > #skin > #right { display: none; }
+.MokaButton.jewel.regular.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-disabled-left.png);
+}
+.MokaButton.jewel.regular.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-left.png);
+}
+.MokaButton.jewel.regular.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-down-left.png);
+}
+.MokaButton.jewel.regular.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-regular-disabled-center.png);
+}
+.MokaButton.jewel.regular.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-center.png);
+}
+.MokaButton.jewel.regular.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-down-center.png);
+}
+.MokaButton.jewel.regular.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-disabled-right.png);
+}
+.MokaButton.jewel.regular.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-right.png);
+}
+.MokaButton.jewel.regular.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-regular-enabled-down-right.png);
+}
+.MokaButton.jewel.small.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-small-disabled-left.png);
+}
+.MokaButton.jewel.small.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-left.png);
+}
+.MokaButton.jewel.small.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-down-left.png);
+}
+.MokaButton.jewel.small.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-disabled-center.png);
+}
+.MokaButton.jewel.small.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-center.png);
+}
+.MokaButton.jewel.small.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-down-center.png);
+}
+.MokaButton.jewel.small.disabled > #drawingCanvas > #skin > #right {
+	width: 5px;
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-disabled-right.png);
+}
+.MokaButton.jewel.small.enabled > #drawingCanvas > #skin > #right {
+	width: 5px;
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-right.png);
+}
+.MokaButton.jewel.small.enabled.down > #drawingCanvas > #skin > #right {
+	width: 5px;
+	height: 100%;
+	background-image: url(../skin/MokaButton-jewel-small-enabled-down-right.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #topleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-topleft.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #topleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-topleft.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #topleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-topleft.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #top {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-top.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #top {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-top.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #top {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-top.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #topright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-topright.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #topright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-topright.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #topright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-topright.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #left {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-left.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #left {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-left.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #left {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-left.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #center {
+	background-image: url(../skin/MokaButton-square-disabled-center.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #center {
+	background-image: url(../skin/MokaButton-square-enabled-center.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #center {
+	background-image: url(../skin/MokaButton-square-enabled-down-center.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #right {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-right.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #right {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-right.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #right {
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-right.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #bottomleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-bottomleft.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #bottomleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-bottomleft.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #bottomleft {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-bottomleft.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #bottom {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-bottom.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #bottom {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-bottom.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #bottom {
+	height: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-bottom.png);
+}
+.MokaButton.square.disabled > #drawingCanvas > #skin > #bottomright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-disabled-bottomright.png);
+}
+.MokaButton.square.enabled > #drawingCanvas > #skin > #bottomright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-bottomright.png);
+}
+.MokaButton.square.enabled.down > #drawingCanvas > #skin > #bottomright {
+	height: 5px;
+	width: 5px;
+	background-image: url(../skin/MokaButton-square-enabled-down-bottomright.png);
+}
+.MokaButton.round > #drawingCanvas > #skin > #left, .MokaButton.round > #drawingCanvas > #skin > #right { display: none; }
+.MokaButton.round.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-round-disabled.png);
+}
+.MokaButton.round.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-round-enabled.png);
+}
+.MokaButton.round.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-round-enabled-down.png);
+}
+.MokaButton.help > #drawingCanvas > #skin > #left, .MokaButton.help > #drawingCanvas > #skin > #right { display: none; }
+.MokaButton.help.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-help-disabled.png);
+}
+.MokaButton.help.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-help-enabled.png);
+}
+.MokaButton.help.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-help-enabled-down.png);
+}
+.MokaButton.disclosure > #drawingCanvas > #skin > #left, .MokaButton.disclosure > #drawingCanvas > #skin > #right { display: none; }
+.MokaButton.disclosure.disabled.closed > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-disclosure-disabled-closed.png);
+}
+.MokaButton.disclosure.disabled.open > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-disclosure-disabled-open.png);
+}
+.MokaButton.disclosure.enabled.closed > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-disclosure-enabled-closed.png);
+}
+.MokaButton.disclosure.enabled.open > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	background-image: url(../skin/MokaButton-disclosure-enabled-open.png);
+}
+
+.MokaBox.noborder > #drawingCanvas > #skin { display: none; }
+.MokaBox.bezelborder > #drawingCanvas > #skin > #topleft {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-topleft.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #top {
+	height: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-top.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #topright {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-topright.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #left {
+	width: 10px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaBox-bezelborder-left.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #center {
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-center.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #right {
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-right.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #bottomleft {
+	height: 10px;
+	width: 10px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaBox-bezelborder-bottomleft.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #bottom {
+	height: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-bottom.png);
+}
+.MokaBox.bezelborder > #drawingCanvas > #skin > #bottomright {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaBox-bezelborder-bottomright.png);
+}
+
+.MokaColorWell > #drawingCanvas > #skin > #topleft {
+	height: 5px;
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-topleft.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #top {
+	height: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-top.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #topright {
+	height: 5px;
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-topright.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #left {
+	width: 5px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaColorWell-left.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #center {
+	float: left;
+}
+.MokaColorWell > #drawingCanvas > #skin > #right {
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-right.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #bottomleft {
+	height: 5px;
+	width: 5px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaColorWell-bottomleft.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #bottom {
+	height: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-bottom.png);
+}
+.MokaColorWell > #drawingCanvas > #skin > #bottomright {
+	height: 5px;
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaColorWell-bottomright.png);
+}
+
+._MokaColorWheel > #drawingCanvas > #skin {
+	background-image: url(../skin/MokaColorWheel-spectrum.png);
+}
+._MokaColorWheel > #drawingCanvas > #skin > #loop {
+	background-image: url(../skin/MokaColorWheel-loop.png);
+}
+
+.MokaComboBox.regular.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaComboBox-regular-disabled-left.png);
+}
+.MokaComboBox.regular.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-regular-disabled-center.png);
+}
+.MokaComboBox.regular.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaComboBox-regular-enabled-left.png);
+}
+.MokaComboBox.regular.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-regular-enabled-center.png);
+}
+.MokaComboBox.regular.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-regular-disabled-right.png);
+}
+.MokaComboBox.regular.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-regular-enabled-right.png);
+}
+.MokaComboBox.regular.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-regular-enabled-down-right.png);
+}
+.MokaComboBox.small.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaComboBox-small-disabled-left.png);
+}
+.MokaComboBox.small.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-small-disabled-center.png);
+}
+.MokaComboBox.small.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaComboBox-small-enabled-left.png);
+}
+.MokaComboBox.small.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-small-enabled-center.png);
+}
+.MokaComboBox.small.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-small-disabled-right.png);
+}
+.MokaComboBox.small.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-small-enabled-right.png);
+}
+.MokaComboBox.small.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaComboBox-small-enabled-down-right.png);
+}
+
+._MokaCornerView > #drawingCanvas > #skin {
+	background-image: url(../skin/MokaTableHeaderView-center.png);
+}
+
+.MokaImageView > #drawingCanvas > #skin > #topleft {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-topleft.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #top {
+	height: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-top.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #topright {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-topright.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #left {
+	width: 10px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaImageView-left.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #center {
+	float: left;
+	background-image: url(../skin/MokaImageView-center.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #right {
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-right.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #bottomleft {
+	height: 10px;
+	width: 10px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaImageView-bottomleft.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #bottom {
+	height: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-bottom.png);
+}
+.MokaImageView > #drawingCanvas > #skin > #bottomright {
+	height: 10px;
+	width: 10px;
+	float: left;
+	background-image: url(../skin/MokaImageView-bottomright.png);
+}
+
+.MokaMenuView > .separatoritem {
+	background-image: url(../skin/MokaMenuView-separatoritem.png);
+}
+
+.MokaPanel > #shadow {
+//	background-color: red;
+	margin-left: -5px;
+	opacity: 0.75;
+}
+.MokaPanel > #shadow > #topleft {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-topleft.png);
+	//background-color: red;
+}
+.MokaPanel > #shadow > #top {
+	height: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-top.png);
+	//background-color: orange;
+}
+.MokaPanel > #shadow > #topright {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-topright.png);
+	//background-color: yellow;
+}
+.MokaPanel > #shadow > #left {
+	width: 20px;
+	clear: both;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-left.png);
+	//background-color: #9F0;
+}
+.MokaPanel > #shadow > #center {
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-center.png);
+	//background-color: green;
+}
+.MokaPanel > #shadow > #right {
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-right.png);
+	//background-color: #0F9;
+}
+.MokaPanel > #shadow > #bottomleft {
+	height: 20px;
+	width: 20px;
+	clear: both;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-bottomleft.png);
+	//background-color: blue;
+}
+.MokaPanel > #shadow > #bottom {
+	height: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-bottom.png);
+	//background-color: purple;
+}
+.MokaPanel > #shadow > #bottomright {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-shadow-bottomright.png);
+	//background-color: magenta;
+}
+.MokaPanel > #skin > #topleft {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-topleft.png);
+}
+.MokaPanel > #skin > #top {
+	height: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-top.png);
+}
+.MokaPanel > #skin > #topright {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image: url(../skin/MokaPanel-topright.png);
+}
+.MokaPanel > #skin > #background {
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #f7f7f7;
+}
+
+.MokaPopUpButton.regular.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-regular-disabled-left.png);
+}
+.MokaPopUpButton.regular.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-disabled-center.png);
+}
+.MokaPopUpButton.regular.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-regular-enabled-left.png);
+}
+.MokaPopUpButton.regular.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-enabled-center.png);
+}
+.MokaPopUpButton.regular.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-regular-enabled-down-left.png);
+}
+.MokaPopUpButton.regular.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-enabled-down-center.png);
+}
+.MokaPopUpButton.regular.dropdown.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-dropdown-disabled-right.png);
+}
+.MokaPopUpButton.regular.dropdown.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-dropdown-enabled-right.png);
+}
+.MokaPopUpButton.regular.dropdown.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-dropdown-enabled-down-right.png);
+}
+.MokaPopUpButton.regular.popup.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-popup-disabled-right.png);
+}
+.MokaPopUpButton.regular.popup.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-popup-enabled-right.png);
+}
+.MokaPopUpButton.regular.popup.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-regular-popup-enabled-down-right.png);
+}
+.MokaPopUpButton.small.disabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-small-disabled-left.png);
+}
+.MokaPopUpButton.small.disabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-disabled-center.png);
+}
+.MokaPopUpButton.small.enabled > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-small-enabled-left.png);
+}
+.MokaPopUpButton.small.enabled > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-enabled-center.png);
+}
+.MokaPopUpButton.small.enabled.down > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	background-image: url(../skin/MokaPopUpButton-small-enabled-down-left.png);
+}
+.MokaPopUpButton.small.enabled.down > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-enabled-down-center.png);
+}
+.MokaPopUpButton.small.dropdown.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-dropdown-disabled-right.png);
+}
+.MokaPopUpButton.small.dropdown.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-dropdown-enabled-right.png);
+}
+.MokaPopUpButton.small.dropdown.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-dropdown-enabled-down-right.png);
+}
+.MokaPopUpButton.small.popup.disabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-popup-disabled-right.png);
+}
+.MokaPopUpButton.small.popup.enabled > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-popup-enabled-right.png);
+}
+.MokaPopUpButton.small.popup.enabled.down > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaPopUpButton-small-popup-enabled-down-right.png);
+}
+
+.MokaProgressIndicator.spinning > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+.MokaProgressIndicator.spinning > #drawingCanvas > #skin > #center {
+	height: 100%;
+	width: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-bgcenterspinning.png);
+}
+.MokaProgressIndicator.spinning > #drawingCanvas > #skin > #right {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+.MokaProgressIndicator.determinate > #drawingCanvas > #skin > #left, .MokaProgressIndicator.indeterminate > #drawingCanvas > #skin > #left {
+	height: 100%;
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-bgleft.png);
+}
+.MokaProgressIndicator.determinate > #drawingCanvas > #skin > #center, .MokaProgressIndicator.indeterminate > #drawingCanvas > #skin > #center {
+	height: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-bgcenter.png);
+}
+.MokaProgressIndicator.determinate > #drawingCanvas > #skin > #right, .MokaProgressIndicator.indeterminate > #drawingCanvas > #skin > #right {
+	height: 100%;
+	width: 5px;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-bgright.png);
+}
+.MokaProgressIndicator > #indicator {
+	height: 100%;
+	float: left;
+}
+.MokaProgressIndicator.spinning > #indicator > #left {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+.MokaProgressIndicator.spinning > #indicator > #center {
+	height: 100%;
+	width: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-indicatorcenterspinning.png);
+}
+.MokaProgressIndicator.spinning > #indicator > #right {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+.MokaProgressIndicator.determinate > #indicator > #left {
+	height: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-indicatorleftdeterminate.png);
+}
+.MokaProgressIndicator.determinate > #indicator > #center {
+	height: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-indicatorcenterdeterminate.png);
+}
+.MokaProgressIndicator.determinate > #indicator > #right {
+	height: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-indicatorrightdeterminate.png);
+}
+.MokaProgressIndicator.indeterminate > #indicator > #left {
+	height: 100%;
+	width: 0;
+	float: left;
+}
+.MokaProgressIndicator.indeterminate > #indicator > #center {
+	height: 100%;
+	width: 100%;
+	float: left;
+	background-image: url(../skin/MokaProgressIndicator-indicatorcenterindeterminate.png);
+}
+.MokaProgressIndicator.indeterminate > #indicator > #right {                                                                           
+	height: 100%;
+	width: 0;
+	float: left;
+}
+
+.MokaScroller.disabled * { display: none; }
+.MokaScroller.enabled * { display: block; }
+.MokaScroller.enabled.noparts * { display: none; }
+.MokaScroller.vertical { position: absolute; background-image: url(../skin/MokaScroller-vertical-bg.png); }
+.MokaScroller.horizontal { position: absolute; background-image: url(../skin/MokaScroller-horizontal-bg.png); }
+.MokaScroller.primary.vertical.regular, .MokaScroller.secondary.vertical.regular {
+	width: 14px;
+}
+.MokaScroller.primary.vertical.small, .MokaScroller.secondary.vertical.small {
+	width: 12px;
+}
+.MokaScroller.primary.horizontal.regular, .MokaScroller.secondary.horizontal.regular {
+	height: 14px;
+}
+.MokaScroller.primary.horizontal.small, .MokaScroller.secondary.horizontal.small {
+	height: 12px;
+}
+.MokaScroller > #cap { position: absolute; }
+.MokaScroller.vertical.regular > #cap {
+	background-image: url(../skin/MokaScroller-vertical-regular-cap.png);
+}
+.MokaScroller.vertical.small > #cap {
+	background-image: url(../skin/MokaScroller-vertical-small-cap.png);
+}
+.MokaScroller.horizontal.regular > #cap {
+	background-color: red;
+	background-image: url(../skin/MokaScroller-horizontal-regular-cap.png);
+}
+.MokaScroller.horizontal.small > #cap {
+	background-image: url(../skin/MokaScroller-horizontal-small-cap.png);
+}
+.MokaScroller.primary.vertical.regular > #cap, .MokaScroller.primary.horizontal.regular > #cap {
+	height: 14px;
+	width: 14px;
+}
+.MokaScroller.primary.vertical.small > #cap, .MokaScroller.primary.horizontal.small > #cap {
+	height: 12px;
+	width: 12px;
+}
+.MokaScroller.secondary > #cap {
+	display: none;
+}
+.MokaScroller > #knob { position: absolute; }			
+.MokaScroller.vertical > #knob { width: 100%; }
+.MokaScroller.horizontal > #knob { height: 100%; }
+.MokaScroller.horizontal > #knob * { float: left; }
+.MokaScroller.vertical.regular > #knob > #upend { background-image: url(../skin/MokaScroller-vertical-regular-knob-upend.png); }
+.MokaScroller.vertical.regular > #knob > #middle { background-image: url(../skin/MokaScroller-vertical-regular-knob-middle.png); }
+.MokaScroller.vertical.regular > #knob > #downend { background-image: url(../skin/MokaScroller-vertical-regular-knob-downend.png); }
+.MokaScroller.vertical.small > #knob > #upend { background-image: url(../skin/MokaScroller-vertical-small-knob-upend.png); }
+.MokaScroller.vertical.small > #knob > #middle { background-image: url(../skin/MokaScroller-vertical-small-knob-middle.png); }
+.MokaScroller.vertical.small > #knob > #downend { background-image: url(../skin/MokaScroller-vertical-small-knob-downend.png); }
+.MokaScroller.horizontal.regular > #knob > #upend { background-image: url(../skin/MokaScroller-horizontal-regular-knob-upend.png); }
+.MokaScroller.horizontal.regular > #knob > #middle { background-image: url(../skin/MokaScroller-horizontal-regular-knob-middle.png); }
+.MokaScroller.horizontal.regular > #knob > #downend { background-image: url(../skin/MokaScroller-horizontal-regular-knob-downend.png); }
+.MokaScroller.horizontal.small > #knob > #upend { background-image: url(../skin/MokaScroller-horizontal-small-knob-upend.png); }
+.MokaScroller.horizontal.small > #knob > #middle { background-image: url(../skin/MokaScroller-horizontal-small-knob-middle.png); }
+.MokaScroller.horizontal.small > #knob > #downend { background-image: url(../skin/MokaScroller-horizontal-small-knob-downend.png); }
+.MokaScroller.vertical.regular > #knob > #upend, .MokaScroller.vertical.regular > #knob > #downend {
+	height: 5px;
+	width: 14px;
+}
+.MokaScroller.vertical.small > #knob > #upend, .MokaScroller.vertical.small > #knob > #downend {
+	height: 5px;
+	width: 12px;
+}
+.MokaScroller.horizontal.regular > #knob > #upend, .MokaScroller.horizontal.regular > #knob > #downend {
+	height: 14px;
+	width: 5px;
+}
+.MokaScroller.horizontal.small > #knob > #upend, .MokaScroller.horizontal.small > #knob > #downend {
+	height: 12px;
+	width: 5px;
+}
+.MokaScroller.vertical.regular > #knob > #middle {
+	width: 100%;
+	background-image: url(../skin/MokaScroller-vertical-regular-knob-middle.png);
+}
+.MokaScroller.vertical.small > #knob > #middle {
+	width: 100%;
+	background-image: url(../skin/MokaScroller-vertical-small-knob-middle.png);
+}
+.MokaScroller.horizontal.regular > #knob > #middle {
+	height: 100%;
+	background-image: url(../skin/MokaScroller-horizontal-regular-knob-middle.png);
+}
+.MokaScroller.horizontal.small > #knob > #middle {
+	height: 100%;
+	background-image: url(../skin/MokaScroller-horizontal-small-knob-middle.png);
+}
+.MokaScroller > #lineup { position: absolute; }
+.MokaScroller.primary.vertical.regular > #lineup {
+	width: 14px;
+	height: 21px;
+	bottom: 14px;
+	background-image: url(../skin/MokaScroller-primary-vertical-regular-lineup.png);
+}
+.MokaScroller.primary.vertical.small > #lineup {
+	width: 12px;
+	height: 18px;
+	bottom: 12px;
+	background-image: url(../skin/MokaScroller-primary-vertical-small-lineup.png);
+}
+.MokaScroller.primary.horizontal.regular > #lineup {
+	height: 14px;
+	width: 21px;
+	right: 14px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-regular-lineup.png);
+}
+.MokaScroller.primary.horizontal.small > #lineup {
+	height: 12px;
+	width: 18px;
+	right: 12px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-small-lineup.png);
+}
+.MokaScroller.secondary.vertical.regular > #lineup {
+	width: 14px;
+	height: 21px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-regular-lineup.png);
+}
+.MokaScroller.secondary.vertical.small > #lineup {
+	width: 12px;
+	height: 18px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-small-lineup.png);
+}
+.MokaScroller.secondary.horizontal.regular > #lineup {
+	height: 14px;
+	width: 21px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-regular-lineup.png);
+}
+.MokaScroller.secondary.horizontal.small > #lineup {
+	height: 12px;
+	width: 18px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-small-lineup.png);
+}
+.MokaScroller.primary.vertical.regular > #lineup.down {
+	width: 14px;
+	height: 21px;
+	bottom: 14px;
+	background-image: url(../skin/MokaScroller-primary-vertical-regular-lineup-down.png);
+}
+.MokaScroller.primary.vertical.small > #lineup.down {
+	width: 12px;
+	height: 18px;
+	bottom: 12px;
+	background-image: url(../skin/MokaScroller-primary-vertical-small-lineup-down.png);
+}
+.MokaScroller.primary.horizontal.regular > #lineup.down {
+	height: 14px;
+	width: 21px;
+	right: 14px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-regular-lineup-down.png);
+}
+.MokaScroller.primary.horizontal.small > #lineup.down {
+	height: 12px;
+	width: 18px;
+	right: 12px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-small-lineup-down.png);
+}
+.MokaScroller.secondary.vertical.regular > #lineup.down {
+	width: 14px;
+	height: 21px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-regular-lineup-down.png);
+}
+.MokaScroller.secondary.vertical.small > #lineup.down {
+	width: 12px;
+	height: 18px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-small-lineup-down.png);
+}
+.MokaScroller.secondary.horizontal.regular > #lineup.down {
+	height: 14px;
+	width: 21px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-regular-lineup-down.png);
+}
+.MokaScroller.secondary.horizontal.small > #lineup.down {
+	height: 12px;
+	width: 18px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-small-lineup-down.png);
+}
+.MokaScroller > #linedown {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.MokaScroller.primary.vertical.regular > #linedown {
+	height: 14px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-primary-vertical-regular-linedown.png);
+}
+.MokaScroller.primary.vertical.small > #linedown {
+	height: 12px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-primary-vertical-small-linedown.png);
+}
+.MokaScroller.primary.horizontal.regular > #linedown {
+	height: 14px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-regular-linedown.png);
+}
+.MokaScroller.primary.horizontal.small > #linedown {
+	height: 12px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-small-linedown.png);
+}
+.MokaScroller.secondary.vertical.regular > #linedown {
+	height: 21px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-regular-linedown.png);
+}
+.MokaScroller.secondary.vertical.small > #linedown {
+	height: 18px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-small-linedown.png);
+}
+.MokaScroller.secondary.horizontal.regular > #linedown {
+	width: 21px;
+	height: 14px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-regular-linedown.png);
+}
+.MokaScroller.secondary.horizontal.small > #linedown {
+	width: 18px;
+	height: 12px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-small-linedown.png);
+}
+.MokaScroller.primary.vertical.regular > #linedown.down {
+	height: 14px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-primary-vertical-regular-linedown-down.png);
+}
+.MokaScroller.primary.vertical.small > #linedown.down {
+	height: 12px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-primary-vertical-small-linedown-down.png);
+}
+.MokaScroller.primary.horizontal.regular > #linedown.down {
+	height: 14px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-regular-linedown-down.png);
+}
+.MokaScroller.primary.horizontal.small > #linedown.down {
+	height: 12px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-primary-horizontal-small-linedown-down.png);
+}
+.MokaScroller.secondary.vertical.regular > #linedown.down {
+	height: 21px;
+	width: 14px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-regular-linedown-down.png);
+}
+.MokaScroller.secondary.vertical.small > #linedown.down {
+	height: 18px;
+	width: 12px;
+	background-image: url(../skin/MokaScroller-secondary-vertical-small-linedown-down.png);
+}
+.MokaScroller.secondary.horizontal.regular > #linedown.down {
+	width: 21px;
+	height: 14px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-regular-linedown-down.png);
+}
+.MokaScroller.secondary.horizontal.small > #linedown.down {
+	width: 18px;
+	height: 12px;
+	background-image: url(../skin/MokaScroller-secondary-horizontal-small-linedown-down.png);
+}
+
+.MokaSearchField.regular > #drawingCanvas > #skin > #left, .MokaSearchField.regular > #drawingCanvas > #skin > #right { width: 20px; }
+.MokaSearchField.regular > #drawingCanvas > #skin > #center {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-regular-center.png);
+}
+.MokaSearchField.enabled.regular > #drawingCanvas > #skin > #left {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-enabled-regular-left.png);
+}
+.MokaSearchField.enabled.regular > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-enabled-regular-right.png);
+}
+.MokaSearchField.enabled.regular > #drawingCanvas > #skin > #right.down {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-enabled-regular-right-down.png);
+}
+.MokaSearchField.disabled.regular > #drawingCanvas > #skin > #left {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-disabled-regular-left.png);
+}
+.MokaSearchField.disabled.regular > #drawingCanvas > #skin > #right {
+	height: 100%;
+	background-image: url(../skin/MokaSearchField-disabled-regular-right.png);
+}
+
+.MokaSegmentedControl * { height: 100%; float: left; }
+.MokaSegmentedControl.enabled.regular > #left {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-left.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.regular > #left.down {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-left-down.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.regular > .item {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-item.png);
+}
+.MokaSegmentedControl.enabled.regular > .item.down {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-item-down.png);
+}
+.MokaSegmentedControl.enabled.regular > .divider {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-divider.png);
+	width: 2px;
+}
+.MokaSegmentedControl.enabled.regular > #right {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-right.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.regular > #right.down {
+	background-image: url(../skin/MokaSegmentedControl-enabled-regular-right-down.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.small > #left {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-left.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.small > #left.down {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-left-down.png);
+	width: 5px;
+}
+.MokaSegmentedControl.enabled.small > .item {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-item.png);
+}
+.MokaSegmentedControl.enabled.small > .item.down {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-item-down.png);
+}
+.MokaSegmentedControl.enabled.small > .divider {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-divider.png);
+	width: 2px;
+}
+.MokaSegmentedControl.enabled.small > #right {
+	background-image: url(../skin/MokaSegmentedControl-enabled-small-right.png);
+	width: 5px;
+}
+.MokaSegmentedControl.disabled.regular > #left {
+	background-image: url(../skin/MokaSegmentedControl-disabled-regular-left.png);
+	width: 5px;
+}
+.MokaSegmentedControl.disabled.regular > .item {
+	background-image: url(../skin/MokaSegmentedControl-disabled-regular-item.png);
+}
+.MokaSegmentedControl.disabled.regular > .divider {
+	background-image: url(../skin/MokaSegmentedControl-disabled-regular-divider.png);
+	width: 2px;
+}
+.MokaSegmentedControl.disabled.regular > #right {
+	background-image: url(../skin/MokaSegmentedControl-disabled-regular-right.png);
+	width: 5px;
+}
+.MokaSegmentedControl.disabled.small > #left {
+	background-image: url(../skin/MokaSegmentedControl-disabled-small-left.png);
+	width: 5px;
+}
+.MokaSegmentedControl.disabled.small > .item {
+	background-image: url(../skin/MokaSegmentedControl-disabled-small-item.png);
+}
+.MokaSegmentedControl.disabled.small > .divider {
+	background-image: url(../skin/MokaSegmentedControl-disabled-small-divider.png);
+	width: 2px;
+}
+.MokaSegmentedControl.disabled.small > #right {
+	background-image: url(../skin/MokaSegmentedControl-disabled-small-right.png);
+	width: 5px;
+}
+
+.MokaSlider { position: absolute; }
+.MokaSlider.vertical.regular.notickmarks {
+	width: 15px;
+}
+.MokaSlider.vertical.small.notickmarks {
+	width: 11px;
+}
+.MokaSlider.vertical.regular.hastickmarks {
+	width: 23px;
+}
+.MokaSlider.vertical.small.hastickmarks {
+	width: 17px;
+}
+.MokaSlider.horizontal.regular.notickmarks {
+	height: 15px;
+}
+.MokaSlider.horizontal.small.notickmarks {
+	height: 11px;
+}
+.MokaSlider.horizontal.regular.hastickmarks {
+	height: 23px;
+}
+.MokaSlider.horizontal.small.hastickmarks {
+	height: 17px;
+}
+.MokaSlider.circular.regular.notickmarks {
+	height: 30px;
+	width: 30px;
+}
+.MokaSlider.circular.regular.hastickmarks {
+	height: 33px;
+	width: 33px;
+}
+.MokaSlider.disabled.circular.small > #drawingCanvas > #skin { background-image: url(../skin/MokaSlider-disabled-circular-small-background.png); }
+.MokaSlider.enabled.circular.small > #drawingCanvas > #skin { background-image: url(../skin/MokaSlider-enabled-circular-small-background.png); }
+.MokaSlider.circular.small.notickmarks {
+	height: 20px;
+	width: 20px;
+}
+.MokaSlider.circular.small.hastickmarks {
+	height: 23px;
+	width: 23px;
+}
+.MokaSlider * { position: absolute; }
+.MokaSlider.notickmarks > #drawingCanvas > #skin > #tickmarks {
+	display: none;
+}
+.MokaSlider.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	display: block;
+}
+.MokaSlider.vertical.regular.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	width: 8px;
+	height: 100%;
+}
+.MokaSlider.vertical.small.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	width: 6px;
+	height: 100%;
+}
+.MokaSlider.vertical.hastickmarks.tickmarksright > #drawingCanvas > #skin > #tickmarks {
+	right: 0;
+}
+.MokaSlider.horizontal.regular.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	height: 8px;
+	width: 100%;
+}
+.MokaSlider.horizontal.small.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	height: 6px;
+	width: 100%;
+}
+.MokaSlider.horizontal.hastickmarks.tickmarksbelow > #drawingCanvas > #skin > #tickmarks {
+	bottom: 0;
+}
+.MokaSlider.circular.hastickmarks > #drawingCanvas > #skin > #tickmarks {
+	height: 100%;
+	width: 100%;
+}
+.MokaSlider.vertical.regular > #drawingCanvas > #skin > #topleft {
+	background-image: url(../skin/MokaSlider-vertical-regular-topleft.png);
+}
+.MokaSlider.vertical.regular > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-vertical-regular-middle.png);
+}
+.MokaSlider.vertical.regular > #drawingCanvas > #skin > #bottomright {
+	background-image: url(../skin/MokaSlider-vertical-regular-bottomright.png);
+}
+.MokaSlider.vertical.small > #drawingCanvas > #skin > #topleft {
+	background-image: url(../skin/MokaSlider-vertical-small-topleft.png);
+}
+.MokaSlider.vertical.small > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-vertical-small-middle.png);
+}
+.MokaSlider.vertical.small > #drawingCanvas > #skin > #bottomright {
+	background-image: url(../skin/MokaSlider-vertical-small-bottomright.png);
+}
+.MokaSlider.horizontal.regular > #drawingCanvas > #skin > #topleft {
+	background-image: url(../skin/MokaSlider-horizontal-regular-topleft.png);
+}
+.MokaSlider.horizontal.regular > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-horizontal-regular-middle.png);
+}
+.MokaSlider.horizontal.regular > #drawingCanvas > #skin > #bottomright {
+	background-image: url(../skin/MokaSlider-horizontal-regular-bottomright.png);
+}
+.MokaSlider.horizontal.small > #drawingCanvas > #skin > #topleft {
+	background-image: url(../skin/MokaSlider-horizontal-small-topleft.png);
+}
+.MokaSlider.horizontal.small > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-horizontal-small-middle.png);
+}
+.MokaSlider.horizontal.small > #drawingCanvas > #skin > #bottomright {
+	background-image: url(../skin/MokaSlider-horizontal-small-bottomright.png);
+}
+.MokaSlider.circular.regular > #drawingCanvas > #skin > #topleft {
+	display: none;
+}
+.MokaSlider.disabled.circular.regular > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-disabled-circular-regular-background.png);
+}
+.MokaSlider.enabled.circular.regular > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-enabled-circular-regular-background.png);
+}
+.MokaSlider.circular.regular.hastickmarks > #drawingCanvas > #skin > #middle {
+	width: 30px;
+	height: 30px;
+	left: 3px;
+	top: 3px;
+}
+.MokaSlider.circular.regular > #drawingCanvas > #skin > #bottomright {
+	display: none;
+}
+.MokaSlider.circular.small > #drawingCanvas > #skin > #topleft {
+	display: none;
+}
+.MokaSlider.disabled.circular.small.notickmarks > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-disabled-circular-small-background.png);
+}
+.MokaSlider.enabled.circular.small.notickmarks > #drawingCanvas > #skin > #middle {
+	background-image: url(../skin/MokaSlider-enabled-circular-small-background.png);
+}
+.MokaSlider.circular.small.hastickmarks > #drawingCanvas > #skin > #middle {
+	width: 20px;
+	height: 20px;
+	left: 3px;
+	top: 3px;
+}
+.MokaSlider.circular.small > #drawingCanvas > #skin > #bottomright {
+	display: none;
+}
+.MokaSlider.regular > #drawingCanvas > #skin > #topleft, .Mokaslider.regular > #drawingCanvas > #skin > #bottomright {
+	height: 15px;
+	width: 15px;
+}
+.MokaSlider.small > #drawingCanvas > #skin > #topleft, .MokaSlider.small > #drawingCanvas > #skin > #bottomright {
+	height: 11px;
+	width: 11px;
+}
+.MokaSlider.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #topleft,
+.MokaSlider.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #bottomright,
+.MokaSlider.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #middle {
+	right: 0;
+}
+.MokaSlider.vertical > #drawingCanvas > #skin > #bottomright {
+	bottom: 0;
+}
+.MokaSlider.vertical.regular > #drawingCanvas > #skin > #middle {
+	width: 15px;
+	top: 15px;
+}
+.MokaSlider.vertical.small > #drawingCanvas > #skin > #middle {
+	width: 11px;
+	top: 11px;
+}
+.MokaSlider.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #topleft,
+.Mokaslider.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #bottomright,
+.Mokaslider.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #middle {
+	bottom: 0;
+}
+.MokaSlider.horizontal > #drawingCanvas > #skin > #bottomright {
+	right: 0;
+}
+.MokaSlider.horizontal.regular > #drawingCanvas > #skin > #middle {
+	height: 15px;
+	left: 15px;
+}
+.MokaSlider.horizontal.small > #drawingCanvas > #skin > #middle {
+	height: 11px;
+	left: 11px;
+}
+.MokaSlider.circular > #drawingCanvas > #skin > #topleft, .MokaSlider.circular > #drawingCanvas > #skin > #bottomright { display: none; }
+.MokaSlider.circular > #drawingCanvas > #skin > #middle {
+	width: 100%;
+	height: 100%;
+	background-image: url(../skin/MokaSlider-circular-bg.png);
+}
+.MokaSlider.disabled.regular.vertical > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-disabled-regular-vertical-knob.png); }
+.MokaSlider.enabled.regular.vertical > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-enabled-regular-vertical-knob.png); }
+.MokaSlider.disabled.regular.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #knob {
+	width: 18px;
+	right: 0;
+	background-image: url(../skin/MokaSlider-disabled-regular-vertical-tickmarksleft-knob.png);
+}
+.MokaSlider.enabled.regular.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #knob {
+	width: 18px;
+	right: 0;
+	background-image: url(../skin/MokaSlider-enabled-regular-vertical-tickmarksleft-knob.png);
+}
+.MokaSlider.disabled.regular.vertical.hastickmarks.tickmarksright > #drawingCanvas > #skin > #knob {
+	width: 18px;
+	left: 0;
+	background-image: url(../skin/MokaSlider-disabled-regular-vertical-tickmarksright-knob.png);
+}
+.MokaSlider.enabled.regular.vertical.hastickmarks.tickmarksright > #drawingCanvas > #skin > #knob {
+	width: 18px;
+	left: 0;
+	background-image: url(../skin/MokaSlider-enabled-regular-vertical-tickmarksright-knob.png);
+}
+.MokaSlider.disabled.small.vertical > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-disabled-small-vertical-knob.png); }
+.MokaSlider.enabled.small.vertical > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-enabled-small-vertical-knob.png); }
+.MokaSlider.disabled.small.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #knob {
+	width: 14px;
+	right: 0;
+	background-image: url(../skin/MokaSlider-disabled-small-vertical-tickmarksleft-knob.png);
+}
+.MokaSlider.enabled.small.vertical.hastickmarks.tickmarksleft > #drawingCanvas > #skin > #knob {
+	width: 14px;
+	right: 0;
+	background-image: url(../skin/MokaSlider-enabled-small-vertical-tickmarksleft-knob.png);
+}
+.MokaSlider.disabled.small.vertical.hastickmarks.tickmarksright > #drawingCanvas > #skin > #knob {
+	width: 14px;
+	left: 0;
+	background-image: url(../skin/MokaSlider-disabled-small-vertical-tickmarksright-knob.png);
+}
+.MokaSlider.enabled.small.vertical.hastickmarks.tickmarksright > #drawingCanvas > #skin > #knob {
+	width: 14px;
+	left: 0;
+	background-image: url(../skin/MokaSlider-enabled-small-vertical-tickmarksright-knob.png); 
+}
+.MokaSlider.disabled.regular.horizontal > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-disabled-regular-horizontal-knob.png); }
+.MokaSlider.enabled.regular.horizontal > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-enabled-regular-horizontal-knob.png); }
+.MokaSlider.disabled.regular.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #knob {
+	height: 18px;
+	bottom: 0;
+	background-image: url(../skin/MokaSlider-disabled-regular-horizontal-tickmarksabove-knob.png);
+}
+.MokaSlider.enabled.regular.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #knob {
+	height: 18px;
+	bottom: 0;
+	background-image: url(../skin/MokaSlider-enabled-regular-horizontal-tickmarksabove-knob.png);
+}
+.MokaSlider.disabled.regular.horizontal.hastickmarks.tickmarksbelow > #drawingCanvas > #skin > #knob {
+	height: 18px;
+	top: 0;
+	background-image: url(../skin/MokaSlider-disabled-regular-horizontal-tickmarksbelow-knob.png);
+}
+.MokaSlider.enabled.regular.horizontal.hastickmarks.tickmarksbelow > #drawingCanvas > #skin > #knob {
+	height: 18px;
+	top: 0;
+	background-image: url(../skin/MokaSlider-enabled-regular-horizontal-tickmarksbelow-knob.png);
+}
+.MokaSlider.disabled.small.horizontal > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-disabled-small-horizontal-knob.png); }
+.MokaSlider.enabled.small.horizontal > #drawingCanvas > #skin > #knob { background-image: url(../skin/MokaSlider-enabled-small-horizontal-knob.png); }
+.MokaSlider.disabled.small.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #knob {
+	height: 14px;
+	bottom: 0;
+	background-image: url(../skin/MokaSlider-disabled-small-horizontal-tickmarksabove-knob.png);
+}
+.MokaSlider.enabled.small.horizontal.hastickmarks.tickmarksabove > #drawingCanvas > #skin > #knob {
+	height: 14px;
+	bottom: 0;
+	background-image: url(../skin/MokaSlider-enabled-small-horizontal-tickmarksabove-knob.png);
+}
+.MokaSlider.disabled.small.horizontal.hastickmarks.tickmarksbelow > #drawingCanvas > #skin > #knob {
+	height: 14px;
+	top: 0;
+	background-image: url(../skin/MokaSlider-disabled-small-horizontal-tickmarksbelow-knob.png);
+}
+.MokaSlider.enabled.small.horizontal.hastickmarks.tickmarksbelow > #drawingCanvas > #skin > #knob {
+	height: 14px;
+	top: 0;
+	background-image: url(../skin/MokaSlider-enabled-small-horizontal-tickmarksbelow-knob.png);
+}
+.MokaSlider.disabled.circular > #drawingCanvas > #skin > #knob {
+	width: 4px;
+	height: 4px;
+	background-image: url(../skin/MokaSlider-disabled-circular-knob.png);
+}
+.MokaSlider.enabled.circular > #drawingCanvas > #skin > #knob {
+	width: 4px;
+	height: 4px;
+	background-image: url(../skin/MokaSlider-enabled-circular-knob.png);
+}
+.MokaSlider.disabled.regular.vertical > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-disabled-regular-vertical-knob.png);
+}
+.MokaSlider.enabled.regular.vertical > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-enabled-regular-vertical-knob.png);
+}
+.MokaSlider.disabled.small.vertical > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-disabled-small-vertical-knob.png);
+}
+.MokaSlider.enabled.small.vertical > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-enabled-small-vertical-knob.png);
+}
+.MokaSlider.disabled.regular.horizontal > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-disabled-regular-horizontal-knob.png);
+}
+.MokaSlider.enabled.regular.horizontal > #drawingCanvas > #skin > #knob {
+	height: 15px;
+	width: 15px;
+	background-image: url(../skin/MokaSlider-enabled-regular-horizontal-knob.png);
+}
+.MokaSlider.disabled.small.horizontal > #drawingCanvas > #skin > #knob {
+	height: 11px;
+	width: 11px;
+	background-image: url(../skin/MokaSlider-disabled-small-horizontal-knob.png);
+}
+.MokaSlider.enabled.small.horizontal > #drawingCanvas > #skin > #knob {
+	height: 11px;
+	width: 11px;
+	background-image: url(../skin/MokaSlider-enabled-small-horizontal-knob.png);
+}
+
+.MokaStepper > #drawingCanvas > #skin > #increment {
+	background-image: url(../skin/MokaStepper-increment.png);
+}
+.MokaStepper > #drawingCanvas > #skin > #increment.down {
+	background-image: url(../skin/MokaStepper-increment-down.png);
+}
+.MokaStepper > #drawingCanvas > #skin > #decrement {
+	background-image: url(../skin/MokaStepper-decrement.png);
+}
+.MokaStepper > #drawingCanvas > #skin > #decrement.down {
+	background-image: url(../skin/MokaStepper-decrement-down.png);
+}
+
+.MokaTableHeaderView * { height: 100%; float: left; }
+.MokaTableHeaderView > .item {
+	background-image: url(../skin/MokaTableHeaderView-regular-item.png);
+}
+.MokaTableHeaderView > .item.down {
+	background-image: url(../skin/MokaTableHeaderView-regular-item-down.png);
+}
+.MokaTableHeaderView > .divider {
+	background-image: url(../skin/MokaTableHeaderView-regular-divider.png);
+	width: 2px;
+}
+
+.MokaTextField > #drawingCanvas > #skin > #topleft {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-topleft.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #top {
+	height: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-top.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #topright {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-topright.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #left {
+	width: 2px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaTextField-left.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #center {
+	float: left;
+	background-image: url(../skin/MokaTextField-center.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #right {
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-right.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #bottomleft {
+	height: 2px;
+	width: 2px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaTextField-bottomleft.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #bottom {
+	height: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-bottom.png);
+}
+.MokaTextField > #drawingCanvas > #skin > #bottomright {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextField-bottomright.png);
+}
+
+.MokaTextView > #drawingCanvas > #skin > #topleft {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-topleft.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #top {
+	height: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-top.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #topright {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-topright.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #left {
+	width: 2px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaTextView-left.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #center {
+	float: left;
+	background-image: url(../skin/MokaTextView-center.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #right {
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-right.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #bottomleft {
+	height: 2px;
+	width: 2px;
+	float: left;
+	clear: both;
+	background-image: url(../skin/MokaTextView-bottomleft.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #bottom {
+	height: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-bottom.png);
+}
+.MokaTextView > #drawingCanvas > #skin > #bottomright {
+	height: 2px;
+	width: 2px;
+	float: left;
+	background-image: url(../skin/MokaTextView-bottomright.png);
+}

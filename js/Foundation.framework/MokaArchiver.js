@@ -1,21 +1,21 @@
 function MokaArchiver(){
 	this.extend(MokaCoder);
-	
+
 	/*	Class and Object Substitution	*/
 	var _classNameMap = MokaDictionary.make().init();
 	var _replacementObjects = MokaDictionary.make().init();
-	
+
 	/*	Archiving Data	*/
 	var _outputFormat = MokaArchivingJSONFormat;
-	
-	
-	
+
+
+
 	//Class and Object Substitution
 	/*MokaString*/ this.classNameEncodedForTrueClassName = function(trueName){
 		if( trueName == undefined ){ return trueName; }
 		if( typeof(trueName.isKindOfClass) != "function" ){ return trueName; }
 		if( !trueName.isKindOfClass(MokaString) ){ return trueName; }
-		
+
 		return _classNameMap.objectForKey(trueName) || this.constructor.classNameEncodedForTrueClassName(trueName) || trueName;
 	}
 	/*void*/ this.encodeClassNameIntoClassName = function(trueName,archiveName){
@@ -25,7 +25,7 @@ function MokaArchiver(){
 		if( archiveName == undefined ){ return; }
 		if( typeof(archiveName.isKindOfClass) != "function" ){ return; }
 		if( !archiveName.isKindOfClass(MokaString) ){ return; }
-		
+
 		_classNameMap.setObjectForKey(archiveName,trueName);
 	}
 	/*void*/ this.replaceObjectWithObject = function(object,newObject){
@@ -33,10 +33,10 @@ function MokaArchiver(){
 		if( typeof(object.isKindOfClass) != "function" ){ return; }
 		if( newObject == undefined ){ return; }
 		if( typeof(newObject.isKindOfClass) != "function" ){ return; }
-				
+
 		_replacementObjects.setObjectForKey(newObject,object);
 	}
-	
+
 	//Encoding
 	/*void*/ this.encodeObjectForKey = function(anObject,key){
 		if( anObject ){
@@ -46,13 +46,13 @@ function MokaArchiver(){
 		if( key == undefined ){ return; }
 		if( typeof(key.isKindOfClass) != "function" ){ return; }
 		if( !key.isKindOfClass(MokaString) ){ return; }
-		
-		
+
+
 		var objectToEncode = newObject;
 		if( _replacementObjects.containsKey(objectToEncode) ){
 			objectToEncode = _replacementObjects.objectForKey(objectToEncode);
 		}
-		
+
 		this.supers().encodeObjectForKey(objectToEncode,key);
 	}
 	/*void*/ this.encodeConditionalObjectForKey = function(anObject,key){
@@ -63,21 +63,21 @@ function MokaArchiver(){
 		if( key == undefined ){ return; }
 		if( typeof(key.isKindOfClass) != "function" ){ return; }
 		if( !key.isKindOfClass(MokaString) ){ return; }
-		
+
 		var objectToEncode = newObject;
 		if( _replacementObjects.containsKey(objectToEncode) ){
 			objectToEncode = _replacementObjects.objectForKey(objectToEncode);
 		}
-		
+
 		this.supers().encodeConditionalObjectForKey(objectToEncode,key);
 	}
-		
+
 	//Archiving data
 	/*bool*/ this.archiveToFile = function(aFile){
 		if( aFile == undefined ){ return NO; }
 		if( typeof(aFile.isKindOfClass) != "function" ){ return NO; }
 		if( !aFile.isKindOfClass(MokaString) ){ return NO; }
-		
+
 		aFile.toURL().setResourceData( this.archiveToString() );
 		return aFile.createResourceAsynchronously(NO);
 	}
@@ -90,9 +90,9 @@ function MokaArchiver(){
 				break;
 			}
 		}
-		
+
 		var archiveString = $s("");
-		
+
 		if( this.outputFormat() == MokaArchivingJSONFormat ){
 			for( var i in encodedItems ){
 				var item = encodedItems[i];
@@ -122,23 +122,23 @@ function MokaArchiver(){
 				archiveString.appendString($s("<item>"));
 			}
 		}
-		
+
 		return archiveString;
-	}	
+	}
 	/*MokaArchivingFormat*/ this.outputFormat = function(){
 		return _outputFormat;
 	}
 	/*void*/ this.setOutputFormat = function(aFormat){
 		if( aFormat != MokaArchivingJSONFormat && aFormat != MokaArchivingXMLFormat ){ return; }
-		
+
 		_outputFormat = aFormat;
 	}
-	
+
 }
 /*MokaString*/ MokaArchiver.archiveRootObjectToString = function(anObject){
 	if( anObject == undefined ){ return $s(""); }
 	if( typeof(anObject.isKindOfClass) != "function" ){ return $s(""); }
-	
+
 	var arch = this.make().init();
 	arch.encodeRootObject(anObject);
 	return arch.archiveToString();
@@ -149,8 +149,8 @@ function MokaArchiver(){
 	if( aFile == undefined ){ return NO; }
 	if( typeof(aFile.isKindOfClass) != "function" ){ return NO; }
 	if( !aFile.isKindOfClass(MokaString) ){ return NO; }
-	
-	
+
+
 	var arch = this.make().init();
 	arch.encodeRootObject(anObject);
 	return arch.archiveToFile(aFile);
@@ -159,7 +159,7 @@ function MokaArchiver(){
 	if( trueName == undefined ){ return trueName; }
 	if( typeof(trueName.isKindOfClass) != "function" ){ return trueName; }
 	if( !trueName.isKindOfClass(MokaString) ){ return trueName; }
-	
+
 	return this.classNameEncodedForTrueClassName(trueName) || trueName;
 }
 /*void*/ MokaArchiver.encodeClassNameIntoClassName = function(trueName,archiveName){
@@ -169,16 +169,16 @@ function MokaArchiver(){
 	if( archiveName == undefined ){ return; }
 	if( typeof(archiveName.isKindOfClass) != "function" ){ return; }
 	if( !archiveName.isKindOfClass(MokaString) ){ return; }
-	
+
 	this.classNameMap().setObjectForKey(archiveName,trueName);
 }
 
 //Encoded class names
 MokaArchiver.classNameMap = function(){
-	if( !is(this._classNameMap, JadeDictionary) ){
+	if( !is(this._classNameMap, MokaDictionary) ){
 		this._classNameMap = $dict();
 	}
-	
+
 	return this._classNameMap;
 }
 

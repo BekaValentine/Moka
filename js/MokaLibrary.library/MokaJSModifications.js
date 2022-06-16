@@ -1,9 +1,9 @@
 //Importing
 /*void*/ function importFile( aFileName ){
 	if( typeof(aFileName) != "string" ){ return; }
-	
+
 	if( !is(importFile.imports,Array) ){ importFile.imports = []; }
-	
+
 	if( !importFile.imports[aFileName] ){
 		importFile.imports[aFileName] = true;
 		document.write( "<script type=\"text/javascript\" src=\"./js/"+aFileName+"\"></script>" );
@@ -22,13 +22,13 @@
 /*void*/ Function.prototype.extend = function(Class){
 	if( typeof(Class) != "function" ){ return; }
 	if( Function.extendedClasses == undefined ){ Function.extendedClasses = new Array; }
-	
+
 	for( var m in Function.extendedClasses ){
 		if( this == Function.extendedClasses[m] ){ return; }
 	}
-	
+
 	Function.extendedClasses.push(this);
-	
+
 	for( var m in Class ){
 		if( m != "load" && m != "prototype" ){
 			this[m] = Class[m];
@@ -37,7 +37,7 @@
 	if( this.load == undefined ){
 		this.load = function(){};
 	}
-	
+
 	/*this.superclass = Class;
 
 	var supers = {};
@@ -53,21 +53,23 @@
 	}*/
 }
 /*void*/ Function.prototype.className = function(){
-	var className = this.toString();
-	className = className.substring(9,className.length);
-	var indexOfSpace = className.indexOf(" ");
-	className = className.substring(0,(indexOfSpace == -1 ? className.length : indexOfSpace)-2);
+	// var className = this.toString();
+	// className = className.substring(9,className.length);
+	// var indexOfPa = className.indexOf("(");
+	// className = className.substring(0,(indexOfSpace == -1 ? className.length : indexOfSpace)-2);
+	var regex = /^function +([a-zA-Z0-9_]+)[ \(]/;
+	var className = this.toString().match(regex)[1];
 	return $s(className);
 }
 Object.superclass = null;
 Object.prototype.superclass = null;
 /*void*/ Object.prototype.extend = function(Class){
 	if( typeof(Class) != "function" ){ return; }
-	
+
 	Class.apply(this);
 	this.constructor.extend(Class);
 	this.superclass = Class;
-	
+
 	var supers = {};
 	supers.constructor = this.constructor;
 	for( var m in this ){
@@ -110,8 +112,10 @@ NO	= false;
 }
 /*void*/ function $removeClassFromElement(aClass,anElement){
 	if( (!is(aClass,String) && !is(aClass,RegExp)) || !is(anElement.getAttribute,Function) || !anElement.getAttribute("class") ){ return; }
-	
+
 	var re = ( is(aClass,String) ? new RegExp("\\s+("+aClass+")(\\b)") : aClass );
+	console.log("target: ", aClass);
+	console.log("haystack: ", anElement.getAttribute("class").toString());
 	while( anElement.getAttribute("class").toString().match(re) ){
 		anElement.setAttribute("class",anElement.getAttribute("class").toString().replace(re,""));
 	}
@@ -119,10 +123,11 @@ NO	= false;
 /*void*/ function $addClassToElement(aClass,anElement){
 	if( !is(aClass,String) || !is(anElement.getAttribute,Function) ){ return; }
 	$removeClassFromElement(aClass,anElement);
-	
+
 	var currentClass = anElement.getAttribute("class") || "";
-	
-	anElement.setAttribute( "class", currentClass.toString()+" "+aClass );
+
+	anElement.setAttribute( "class", (currentClass.toString()+" "+aClass).replace(/ +/, ' ') );
+	console.log("added: ", anElement.getAttribute("class"));
 }
 /*void*/ function $replaceClassOfElement(match,replace,anElement){
 	$removeClassFromElement( match, anElement );
@@ -187,7 +192,7 @@ NO	= false;
 }
 /*void*/ Number.prototype.times = function(f){
 	if( typeof(f) != "function" ){ return; }
-	
+
 	for( var i = 0; i < this; i++ ){
 		f(i);
 	}
@@ -237,46 +242,46 @@ NO	= false;
 }
 //Conversions need to handle fractional values as well
 /*string*/ Number.prototype.toBin = function(){
-	
+
 }
 /*string*/ Number.prototype.toOct = function(){
-	
+
 }
 /*string*/ Number.prototype.toHex = function(){
 	var r = this%16;
 	var result = "";
 	if( this - r != 0 ){
-		result = Math.floor( (d-r)/16 ).toHex() 
+		result = Math.floor( (d-r)/16 ).toHex()
 	}
 	return result + "0123456789ABCDEF".charAt(r);
 }
 /*number*/ String.prototype.hexToDec = function(){
 	var dec = 0;
 	var map = { A:10, a:10, B:11, b:11, C:12, c:12, D:13, d:13, E:14, e:14, F:15, f:15 };
-	
+
 	for( var i = 0; i < this.length; i++ ){
 		if( this.charAt(i) in map ){ dec = 16*dec + map[this.charAt(i)]*1; }
 		else { dec = 16*dec + this.charAt(i)*1; }
 	}
-	
+
 	return dec;
 }
 /*number*/ String.prototype.octToDec = function(){
 	var dec = 0;
-	
+
 	for( var i = 0; i < this.length ; i++ ){
 		dec = 8*dec + this.charAt(i)*1;
 	}
-	
+
 	return dec;
 }
 /*number*/ String.prototype.binToDec = function(){
 	var dec = 0;
-	
+
 	for( var i = 0; i < this.length; i++ ){
 		dec = 2*dec + (this.charAt(i) ? 1 : 0);
 	}
-	
+
 	return dec
 }
 
@@ -345,21 +350,21 @@ NO	= false;
 //String utility functions
 /*string*/ String.prototype.times = function(n){
 	if( !MokaNumberIsFloat(n) ){ return this; }
-	
+
 	var s = "";
 	n.times(function(){
 		s += this;
 	});
-	
+
 	return s;
 }
 /*string*/ String.prototype.reverse = function(){
 	var s = "";
-	
+
 	for( var i = this.length - 1; i >= 0; i-- ){
 		s += this.charAt(i);
 	}
-	
+
 	return s;
 }
 /*string*/ String.prototype.replaceMatches = function(){
@@ -430,7 +435,7 @@ NO	= false;
 	else if( is(o,Array) ){
 		for( var i = 0; i < this.length; i++ ){
 			if( i in this && i in o ){
-				
+
 				if( !is(this[i]) && !is(o[i]) ){
 					continue;
 				} else if( !is(this[i]) ){
@@ -438,8 +443,8 @@ NO	= false;
 				} else if( !is(o[i]) ){
 					return 1;
 				}
-				
-								
+
+
 				var c = (this[i])["<=>"](o[i]);
 				if( c != 0 ){
 					return c;
@@ -449,18 +454,18 @@ NO	= false;
 				else { return -1; }
 			}
 		}
-		
+
 		if( this.length > o.length ){ return 1; }
 		else if( this.length < o.length ){ return -1; }
 		else { return 0; }
-		
+
 	} else { return -1; }
-	
+
 }
 /*-1,0,1*/ Date.prototype["<=>"] = function(o){
 	if( !is(o) ){ return -1; }
 	else if( is(o,Date) ){
-		return (this.valueOf())["<=>"](o);		
+		return (this.valueOf())["<=>"](o);
 	} else if( is(o,Number) || is(o,String) ){ return -1; }
 	else { return 1; }
 }
@@ -480,7 +485,7 @@ NO	= false;
 
 	if( type == undefined ){ return obj != undefined; }
 	else {
-		
+
 		if( obj == undefined ){ return NO; }
 		else if( type == undefined || type == "undefined" ){
 			return is(obj);
@@ -503,7 +508,7 @@ NO	= false;
 		} else if( is(type,Function) ){
 			return obj.constructor == type || obj instanceof type || (is(obj.isKindOfClass,Function) && obj.isKindOfClass(type));
 		}
-		
+
 	}
 }
 
@@ -523,12 +528,12 @@ NO	= false;
 		window.types[typename] = this;
 		window[typename] = typename;
 	}
-	
+
 	for( var i in arguments ){
 		if( typeof(arguments[i]) != "string" ){ continue; }
 		if( window[arguments[i]] == undefined ){ window[arguments[i]] = values[i] = i*1; }
 	}
-	
+
 	return values;
 }
 /*Array*/ function bitmaskEnumerate(){
@@ -546,12 +551,12 @@ NO	= false;
 		window.types[typename] = this;
 		window[typename] = typename;
 	}
-	
+
 	for( var i in arguments ){
 		if( typeof(arguments[i]) != "string" ){ continue; }
 		if( window[arguments[i]] == undefined ){ window[arguments[i]] = values[i] = ( i == 0 ? 0 : 1 << i-1 )*1; }
 	}
-	
+
 	return values;
 }
 function istype(a,b){
